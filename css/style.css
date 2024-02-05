@@ -1,0 +1,65 @@
+.warna
+{
+    background-color: rgb(243, 14, 60);
+}
+.banner
+{
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/bg.jpeg');
+}
+.sorotan-kategori
+{
+    border: solid;
+    height: 250px;
+    width: auto;
+}
+.search
+{
+    padding: 19px 0;
+}
+.search input[type=text]
+{
+    width: 60%;
+    padding: 10px;
+}
+.search input[type=submit]
+{
+    padding: 12px 15px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.kotak
+{
+    float: right;
+}
+.kotak-1
+{
+    width: 25%;
+    height: auto;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.col-5 img
+{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px)
+{
+    .container
+    {
+        width: 90%;
+    }
+    .col-4
+    {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .col-5
+    {
+        width: 50%;
+    }
+}
